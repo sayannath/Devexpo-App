@@ -1,0 +1,54 @@
+{
+  "speakers": [
+    {
+      "speaker_image": "http://bit.ly/ChiragMishra",
+      "speaker_name": "Chirag Mishra",
+      "speaker_desc": "SDE II at Microsoft India",
+      "speaker_session": "Will talk about Cloud arch, how Azure is revolutionizing the industry",
+      "fb_url": "https://www.facebook.com/chiragmishra93",
+      "github_url": "https://github.com/iampawan",
+      "linkedin_url": "https://www.linkedin.com/in/chirag-mishra/",
+      "twitter_url": "https://twitter.com/imthepk" 
+    },
+    {
+      "speaker_image": "http://bit.ly/PrajnyasisBiswal",
+      "speaker_name": "Prajnyasis Biswall",
+      "speaker_desc": "Ex-Program Manager Skillenza",
+      "speaker_session": "How communities are taking DevRel seriously",
+      "fb_url": "https://www.facebook.com/prajnyasis.biswal",
+      "github_url": "https://github.com/iampawan",
+      "linkedin_url": "https://www.linkedin.com/in/iampbiswal/",
+      "twitter_url": "https://twitter.com/iampbiswal"
+    },
+    {
+      "speaker_image": "https://uploads-ssl.webflow.com/5e5b471d3fb2cc7842753973/5e5e816884bd4fc0ea7e89c9_Hero%20Image%20New.jpg",
+      "speaker_name": "Chethan KVS",
+      "speaker_desc": "Product designer at Unacademy",
+      "speaker_session": "Design storytelling and overview of UI and UX and sort of  fun insights across design",
+      "fb_url": "https://www.facebook.com/KvsChethan",
+      "github_url": "https://github.com/iampawan",
+      "linkedin_url": "https://www.linkedin.com/in/chethan-kvs-048583106/",
+      "twitter_url": "https://twitter.com/KvsChethan"
+    },
+    {
+      "speaker_image": "https://scontent.fccu4-2.fna.fbcdn.net/v/t1.0-9/62359617_820000318375553_1286759467303567360_n.png?_nc_cat=106&_nc_sid=8024bb&_nc_oc=AQlWXqPWPl-Swjs4w9JVyNeoG5tEbuBfSvXIAyqCYyqQiO0zfbSWCbPqKtDv-HRWZ-c&_nc_ht=scontent.fccu4-2.fna&oh=955e3b3126c03672237488e04cfaee81&oe=5E96EE17",
+      "speaker_name": "Sabyasachi Mukhopadhyay",
+      "speaker_desc": "Google DeveloperExpert in AI/ML",
+      "speaker_session": "Fundamentals and grass-root level AI",
+      "fb_url": "https://www.facebook.com/SM2017Official/",
+      "github_url": "https://github.com/iampawan",
+      "linkedin_url": "https://www.linkedin.com/in/sabyasachi-mukhopadhyay-303a1027/",
+      "twitter_url": "https://twitter.com/sabyasachi_uni"
+    },
+    {
+      "speaker_image": "http://bit.ly/AprajitKar",
+      "speaker_name": "Aprajit Kar",
+      "speaker_desc": "Designing for Mobility at Gojek",
+      "speaker_session": "UX for Gojek, Design Storytelling",
+      "fb_url": "https://facebook.com/imthepk",
+      "github_url": "https://github.com/iampawan",
+      "linkedin_url": "https://www.linkedin.com/in/aprajitkar/",
+      "twitter_url": "https://twitter.com/aprajit_kar"
+    }
+  ]
+}
