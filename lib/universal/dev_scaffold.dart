@@ -4,6 +4,7 @@ import 'package:devexpo_app/config/config_event.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:share/share.dart';
 
+
 class DevScaffold extends StatelessWidget {
   final String title;
   final Widget body;
@@ -40,7 +41,7 @@ class DevScaffold extends StatelessWidget {
               ),
               IconButton(
                 onPressed: () => Share.share(
-                    "Download the new DevFest App and share with your tech friends.\nPlayStore -  http://bit.ly/2GDr18N"
+                    "Download the new DevExpo App and share with your tech friends.\nPlayStore -  http://bit.ly/2GDr18N"
                     ),
                 icon: Icon(
                   Icons.share,

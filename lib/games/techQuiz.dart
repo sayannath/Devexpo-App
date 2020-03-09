@@ -88,13 +88,13 @@ class _TechQuizState extends State<TechQuiz> {
   }
 
   void writeData() {
-    DBRef.child("1").set({
+    DBRef.child("${user.displayName}").set({
       'time': '${DateTime.now()}',
       'name': '${user.displayName}'
     });
   }
 
   void deleteData(){
-    DBRef.child("1").remove();
+    DBRef.child("${user.displayName}").remove();
   }
 }

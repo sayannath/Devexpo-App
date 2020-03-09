@@ -19,7 +19,7 @@ class FaqPage extends StatelessWidget {
       //   AnimatedBackground(controller: _controller),
       //   Center(child: ListView(controller: _controller, children: _cards))
       // ]),
-      title: "FAQ",
+      title: "Registration",
       body: Center(
         child: Text('Coming Soon'),
       ),

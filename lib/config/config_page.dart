@@ -63,7 +63,7 @@ class _ConfigPageState extends State<ConfigPage> {
             ),
             //home: HomePage(),
             home: AnimatedSplash(
-              imagePath: 'assets/images/logo.png',
+              imagePath: 'assets/images/logoFinal.png',
               home: HomePage(),
               duration: 3000,
               type: AnimatedSplashType.StaticDuration,

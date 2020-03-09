@@ -12,6 +12,7 @@ import 'package:devexpo_app/utils/tools.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:share/share.dart';
 
 class HomeFront extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -80,9 +81,9 @@ class HomeFront extends StatelessWidget {
             onPressed: () => Navigator.pushNamed(context, TeamPage.routeName),
           ),
           RaisedButton(
-            child: Text("FAQ"),
+            child: Text("Register"),
             shape: StadiumBorder(),
-            color: Colors.brown,
+            color: Colors.blueGrey,
             colorBrightness: Brightness.dark,
             onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
           ),
@@ -128,10 +129,12 @@ class HomeFront extends StatelessWidget {
                 Navigator.pushNamed(context, SponsorPage.routeName),
           ),
           ActionCard(
-            icon: Icons.question_answer,
-            color: Colors.blueGrey,
-            title: Devfest.faq_text,
-            onPressed: () => Navigator.pushNamed(context, FaqPage.routeName),
+            icon: Icons.edit,
+            color: Colors.brown,
+            title: 'Register',
+            onPressed: () async {
+                await _launchURL("https://docs.google.com/forms/d/e/1FAIpQLSc1HlEACdihO85vJSwVcHYt3JQEjl2tT3MMDfrs4i-OtRtwqg/viewform");
+              },
           ),
           ActionCard(
             icon: Icons.map,
@@ -161,7 +164,7 @@ class HomeFront extends StatelessWidget {
             IconButton(
               icon: Icon(FontAwesomeIcons.linkedinIn),
               onPressed: () async {
-                _launchURL("https://linkedin.com/in/dsckiit");
+                _launchURL("https://linkedin.com/company/dsckiit");
               },
             ),
             IconButton(
