@@ -43,41 +43,49 @@ class _MainPageState extends State<MainPage> {
           alignment: Alignment.center,
           color: Colors.transparent,
           child: Center(
-            child: Row(children: <Widget>[
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
               // SizedBox(
               //   width:90,
               // ),
-              OutlineButton(
-                onPressed: () {
-                  Navigator.of(context).push(
-                      new MaterialPageRoute(builder: (BuildContext context) {
-                    return TechQuiz();
-                  }));
-                },
-                splashColor: Colors.blue,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(40)),
-                highlightElevation: 0,
-                borderSide: BorderSide(color: Colors.blue),
-                child: Text('Tech Quiz', style: TextStyle(color: Colors.red)),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: OutlineButton(
+                  onPressed: () {
+                    Navigator.of(context).push(
+                        new MaterialPageRoute(builder: (BuildContext context) {
+                      return TechQuiz();
+                    }));
+                  },
+                  splashColor: Colors.blue,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(40)),
+                  highlightElevation: 0,
+                  borderSide: BorderSide(color: Colors.blue),
+                  child: Text('Tech Quiz', style: TextStyle(color: Colors.red)),
+                ),
               ),
               // SizedBox(
               //   width:30,
               // ),
-              OutlineButton(
-                onPressed: () {
-                  Navigator.of(context).push(
-                      new MaterialPageRoute(builder: (BuildContext context) {
-                    return TechBattle();
-                  }));
-                },
-                splashColor: Colors.blue,
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(40)),
-                highlightElevation: 0,
-                borderSide: BorderSide(color: Colors.blue),
-                child:
-                    Text('Tech Battle', style: TextStyle(color: Colors.green)),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: OutlineButton(
+                  onPressed: () {
+                    Navigator.of(context).push(
+                        new MaterialPageRoute(builder: (BuildContext context) {
+                      return TechBattle();
+                    }));
+                  },
+                  splashColor: Colors.blue,
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(40)),
+                  highlightElevation: 0,
+                  borderSide: BorderSide(color: Colors.blue),
+                  child:
+                      Text('Tech Battle', style: TextStyle(color: Colors.green)),
+                ),
               ),
             ]),
           ),
