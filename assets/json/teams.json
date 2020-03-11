@@ -1,34 +1,16 @@
 {
   "teams": [
     {
-      "name": "Sundar Pichai",
-      "desc": "Organizer",
-      "contribution": "Google CEO",
-      "image": "https://pbs.twimg.com/profile_images/864282616597405701/M-FEJMZ0_400x400.jpg"
+      "name": "Amrit Dash",
+      "desc": "Core team Member DSCKIIT",
+      "contribution": "DevExpo App",
+      "image": "https://media-exp1.licdn.com/dms/image/C5103AQH8FZ0Ooc8BjQ/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=xFZ_gEH2NulEvz9mkrtlVCJCYQIymDmcPpGmo6m1EQA"
     },
     {
-      "name": "Vrijraj",
-      "desc": "Co-Organizer",
-      "contribution": "Logistics and travels",
-      "image": "https://avatars2.githubusercontent.com/u/10599101?s=460&v=4"
-    },
-    {
-      "name": "Larry Page",
-      "desc": "Co-Organizer",
-      "contribution": "Founder",
-      "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76bcaaa7ea43100043c836%2F400x400.jpg%3Ffit%3Dscale%26background%3D000000"
-    },
-    {
-      "name": "Pawan Kumar",
-      "desc": "Co-Organizer",
-      "contribution": "Developed the app",
-      "image": "https://avatars1.githubusercontent.com/u/12619420?s=400&u=eac38b075e4e4463edfb0f0a8972825cf7803d4c&v=4"
-    },
-    {
-      "name": "Pawan Kumar",
-      "desc": "Organizer",
-      "contribution": "Developed the app",
-      "image": "https://avatars1.githubusercontent.com/u/12619420?s=400&u=eac38b075e4e4463edfb0f0a8972825cf7803d4c&v=4"
+      "name": "Sayan Nath",
+      "desc": "Team Member DSCKIIT",
+      "contribution": "DevExpo App",
+      "image": "https://instagram.fmaa8-1.fna.fbcdn.net/v/t51.2885-19/s150x150/88921875_648587859289320_7784637187596746752_n.jpg?_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_ohc=_w5yCqs7XbcAX9uXpC6&oh=3ed9ceff6f7339a212703875cae82b9a&oe=5E9D31D2"
     }
   ]
 }
