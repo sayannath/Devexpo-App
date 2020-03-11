@@ -1,10 +1,10 @@
 import 'dart:math';
 
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:devexpo_app/home/team.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:devexpo_app/home/index.dart';
-import 'package:devexpo_app/home/speaker.dart';
 import 'package:devexpo_app/universal/dev_scaffold.dart';
 import 'package:devexpo_app/utils/tools.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -13,7 +13,7 @@ import 'package:url_launcher/url_launcher.dart';
 class TeamPage extends StatelessWidget {
   static const String routeName = "/team";
 
-  Widget socialActions(context) => FittedBox(
+  Widget socialActions(context, Team team) => FittedBox(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -23,7 +23,7 @@ class TeamPage extends StatelessWidget {
                 size: 15,
               ),
               onPressed: () {
-                launch(speakers[0].fbUrl);
+                launch(team.fbUrl);
               },
             ),
             IconButton(
@@ -32,7 +32,7 @@ class TeamPage extends StatelessWidget {
                 size: 15,
               ),
               onPressed: () {
-                launch(speakers[0].twitterUrl);
+                launch(team.twitterUrl);
               },
             ),
             IconButton(
@@ -41,7 +41,7 @@ class TeamPage extends StatelessWidget {
                 size: 15,
               ),
               onPressed: () {
-                launch(speakers[0].linkedinUrl);
+                launch(team.linkedinUrl);
               },
             ),
             IconButton(
@@ -50,7 +50,7 @@ class TeamPage extends StatelessWidget {
                 size: 15,
               ),
               onPressed: () {
-                launch(speakers[0].githubUrl);
+                launch(team.githubUrl);
               },
             ),
           ],
@@ -124,7 +124,7 @@ class TeamPage extends StatelessWidget {
                             teams[i].contribution,
                             style: Theme.of(context).textTheme.caption,
                           ),
-                          socialActions(context),
+                          socialActions(context, teams[i]),
                         ],
                       ),
                     )

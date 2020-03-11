@@ -81,11 +81,19 @@ List<Team> teams = [
     contribution: "DevExpo App",
     image:
         "https://media-exp1.licdn.com/dms/image/C5103AQH8FZ0Ooc8BjQ/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=xFZ_gEH2NulEvz9mkrtlVCJCYQIymDmcPpGmo6m1EQA",
+    fbUrl: "https://www.facebook.com/ddash123",
+    twitterUrl: "https://twitter.com/the_AoG_guy",
+    linkedinUrl: "https://www.linkedin.com/in/amritdash60/",
+    githubUrl: "https://github.com/the-AoG-guy"
   ),
   Team(
     name: "Sayan Nath",
     desc: "Team Member of DSCKIIT",
     contribution: "DevExpo App",
     image: "https://instagram.fmaa8-1.fna.fbcdn.net/v/t51.2885-19/s150x150/88921875_648587859289320_7784637187596746752_n.jpg?_nc_ht=instagram.fmaa8-1.fna.fbcdn.net&_nc_ohc=_w5yCqs7XbcAX9uXpC6&oh=3ed9ceff6f7339a212703875cae82b9a&oe=5E9D31D2",
+    fbUrl: "https://www.facebook.com/sayan.nath.549",
+    twitterUrl: "https://twitter.com/SayanNa20204009",
+    linkedinUrl: "https://www.linkedin.com/in/sayan-nath-15a989182/",
+    githubUrl: "https://github.com/sayannath"
   ),
 ];
