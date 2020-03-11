@@ -3,7 +3,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:devexpo_app/games/mainPage.dart';
 import 'package:flutter/material.dart';
 import 'package:devexpo_app/home/session.dart';
-import 'package:devexpo_app/home/speaker.dart';
 import 'package:devexpo_app/universal/dev_scaffold.dart';
 import 'package:devexpo_app/utils/tools.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

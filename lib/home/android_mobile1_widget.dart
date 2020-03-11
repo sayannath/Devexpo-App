@@ -1,14 +1,10 @@
 import 'package:devexpo_app/home/home_widgets/home_front.dart';
 import 'package:flutter/material.dart';
-import 'package:devexpo_app/home/values/values.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'dart:async';
 import 'package:devexpo_app/home/index.dart';
-import '../home/values/colors.dart';
-import '../home/values/values.dart';
-
 
 final kFirebaseAnalytics = FirebaseAnalytics();
 
@@ -18,7 +14,6 @@ class AndroidMobile1Widget extends StatefulWidget {
 }
 
 class _AndroidMobile1WidgetState extends State<AndroidMobile1Widget> {
-
   static const String routeName = "/androidmobilewidget";
   var _homeBloc = HomeBloc();
 
@@ -93,7 +88,8 @@ class _AndroidMobile1WidgetState extends State<AndroidMobile1Widget> {
           mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image(image: AssetImage("assets/images/image8-2.png"), height: 20.0),
+            Image(
+                image: AssetImage("assets/images/image8-2.png"), height: 20.0),
             Padding(
               padding: const EdgeInsets.only(left: 10),
               child: Text(
@@ -286,4 +282,3 @@ class _AndroidMobile1WidgetState extends State<AndroidMobile1Widget> {
     );
   }
 }
-

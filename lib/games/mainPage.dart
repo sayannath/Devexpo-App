@@ -10,7 +10,6 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-
   final FirebaseAuth _auth = FirebaseAuth.instance;
   FirebaseUser user;
   bool isSignedIn = false;
@@ -34,48 +33,54 @@ class _MainPageState extends State<MainPage> {
     super.initState();
     this.getUser();
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return DevScaffold(
       title: 'Fun Activities',
       body: Center(
         child: Container(
+          alignment: Alignment.center,
           color: Colors.transparent,
-          child: Row(children: <Widget>[
-            SizedBox(
-              width:90,
-            ),
-            OutlineButton(
-              onPressed: () {
-                Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context){
-                  return TechQuiz();
-                }));
-              },
-              splashColor: Colors.blue,
-              shape:
-                  RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
-              highlightElevation: 0,
-              borderSide: BorderSide(color: Colors.blue),
-              child: Text('Tech Quiz', style: TextStyle(color: Colors.red)),
-            ),
-            SizedBox(
-              width:30,
-            ),
-            OutlineButton(
-              onPressed: () {
-                Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context){
-                  return TechBattle();
-                }));
-              },
-              splashColor: Colors.blue,
-              shape:
-                  RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
-              highlightElevation: 0,
-              borderSide: BorderSide(color: Colors.blue),
-              child: Text('Tech Battle', style: TextStyle(color: Colors.green)),
-            ),
-          ]),
+          child: Center(
+            child: Row(children: <Widget>[
+              // SizedBox(
+              //   width:90,
+              // ),
+              OutlineButton(
+                onPressed: () {
+                  Navigator.of(context).push(
+                      new MaterialPageRoute(builder: (BuildContext context) {
+                    return TechQuiz();
+                  }));
+                },
+                splashColor: Colors.blue,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(40)),
+                highlightElevation: 0,
+                borderSide: BorderSide(color: Colors.blue),
+                child: Text('Tech Quiz', style: TextStyle(color: Colors.red)),
+              ),
+              // SizedBox(
+              //   width:30,
+              // ),
+              OutlineButton(
+                onPressed: () {
+                  Navigator.of(context).push(
+                      new MaterialPageRoute(builder: (BuildContext context) {
+                    return TechBattle();
+                  }));
+                },
+                splashColor: Colors.blue,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(40)),
+                highlightElevation: 0,
+                borderSide: BorderSide(color: Colors.blue),
+                child:
+                    Text('Tech Battle', style: TextStyle(color: Colors.green)),
+              ),
+            ]),
+          ),
         ),
       ),
     );

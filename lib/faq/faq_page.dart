@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:devexpo_app/universal/dev_scaffold.dart';
-import 'demo-card.dart';
-import 'items.dart';
-import 'animated-bg.dart';
+// import 'demo-card.dart';
+// import 'items.dart';
+
 
 class FaqPage extends StatelessWidget {
   static const String routeName = "/faq";
 
-  ScrollController _controller = new ScrollController();
-  List<DemoCard> get _cards =>
-      items.map((Item _item) => DemoCard(_item)).toList();
+  //ScrollController _controller = new ScrollController();
+  // List<DemoCard> get _cards =>
+  //     items.map((Item _item) => DemoCard(_item)).toList();
 
   @override
   Widget build(BuildContext context) {
